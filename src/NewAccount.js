@@ -20,6 +20,10 @@ function NewAccount() {
                 <input type="password" placeholder="Password" />
             </div>
 
+            <div className="InputBox">
+                <input type="password" placeholder="Password again" />
+            </div>
+
             <div className="CreateButtom" type="submit">
                 Create Account
             </div>
@@ -35,7 +39,7 @@ function NewAccount() {
                 Already Have Account?
             </div>
 
-            <Link className="BackToApp" to="/App">
+            <Link className="BackToApp" to="/">
                 <div className="Option">
                     <img
                         className="Icon"

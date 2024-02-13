@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import NewAccount from './NewAccount';
+import ForgotPassword from './ForgotPassword';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
@@ -11,8 +12,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/App" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="/NewAccount" element={<NewAccount />} />
+        <Route path="/ForgotPassword" element={<ForgotPassword />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

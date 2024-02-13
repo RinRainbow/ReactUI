@@ -25,9 +25,9 @@ function App() {
         </div>
 
         <div className="ForgotPassword">
-          <a href="https://www.google.com/">
+          <Link to="/ForgotPassword">
             Forgot Password
-          </a>
+          </Link>
         </div>
 
         <div className="Or">
